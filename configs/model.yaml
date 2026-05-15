@@ -1,0 +1,29 @@
+random_forest:
+  n_estimators: 300
+  max_depth:
+  min_samples_leaf: 2
+  class_weight: balanced
+  random_state: 42
+
+xgboost:
+  n_estimators: 300
+  max_depth: 4
+  learning_rate: 0.05
+  subsample: 0.9
+  colsample_bytree: 0.9
+  random_state: 42
+
+lstm:
+  hidden_size: 32
+  num_layers: 1
+  dropout: 0.1
+  batch_size: 64
+  epochs: 10
+  learning_rate: 0.001
+
+controller:
+  increase_threshold: 0.35
+  decrease_threshold: 0.65
+  increase_factor: 1.08
+  decrease_factor: 0.75
+

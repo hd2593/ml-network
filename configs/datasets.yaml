@@ -1,0 +1,16 @@
+puffer:
+  path: data/external/puffer
+  window_size: 8
+  horizon: 2
+  interval_seconds: 2.002
+
+datacenter_tcp:
+  path: data/external/datacenter_tcp
+  window_size: 8
+  horizon: 2
+
+processed:
+  path: data/processed
+  train: data/processed/train
+  val: data/processed/val
+  test: data/processed/test
